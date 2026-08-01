@@ -1,9 +1,10 @@
 [project]
 name = "remote-mcp-server"
 version = "0.1.0"
-description = "Add your description here"
+description = "This is a MCP server fro Expense Tracking"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "aiosqlite>=0.22.1",
     "fastmcp>=3.4.5",
 ]
